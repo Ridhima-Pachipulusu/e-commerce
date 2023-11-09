@@ -1,47 +1,33 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Lato', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 nav{
-    background-color: rgb(139, 139, 139);
+    background-color: rgb(79, 77, 77);
 }
 .logo{
     margin-left: 30px;
-    margin-top: 10px;
-}
-.search{
-    background-color: red;
-    width: 250px;
-    height: 38px;
-    align-items: center;
-    background-color: rgb(180, 177, 177);
-    border-radius: 7px;
-    margin: 18px auto;
-}
-.search-img{
-    position: relative;
-    top: 5px;
-    left: 40px;
-}
-.search input{
-    margin-left: 8px;
-}
-.search-input::placeholder{
-color: rgb(218, 207, 207);
+    margin-top: 12px;
+    font-size:18px
 }
 .limited{
     width: 130px;
     height: 25px;
     border-bottom:3px solid rgb(162, 210, 92);
-    margin-top: 26px;
-    margin-left: -20px;
+    margin-top: 34px;
     position: relative;
-    right: 35px;
+    right: 38px;
 }
 .limited h3{
     margin-top: -1px;
     color: rgb(226, 223, 223);
+    margin-left: 8px;
 }
 .one,.two{
     display: flex;
@@ -49,12 +35,28 @@ color: rgb(218, 207, 207);
 .two{
     justify-content: center;
     align-items: center;
+    margin: 30px auto;
+    margin-top: 40px;
 }
 .nav-item{
     color: rgb(248, 247, 247);
     margin:0px 30px;
     margin-bottom: 14px;
     cursor: pointer;
+}
+.nav-item:nth-child(1):active,.nav-item:nth-child(1):hover{
+    color: rgb(213, 236, 169);
+}
+.nav-item:nth-child(2):active,.nav-item:nth-child(2):hover{
+    color: rgb(239, 153, 224);
+}
+.nav-item:nth-child(3):active,
+.nav-item:nth-child(3):hover{
+    color: rgb(160, 153, 239);
+}
+.nav-item:nth-child(4):active,
+.nav-item:nth-child(4):hover{
+    color: rgb(153, 239, 183);
 }
 .img{
     width: 530px;
@@ -83,14 +85,17 @@ color: rgb(218, 207, 207);
     position: relative;
 }
 .img{
-    z-index: 1;
+   z-index: 1;
    position: relative;
    left: 10%;
+}
+.img:hover{
+    cursor: pointer;
 }
 .caption{
     position: absolute;
     top: 15%;
-    right: 66%;
+    right: 67%;
     z-index: 1;
     color: rgb(251, 250, 250);
     font-size: 40px;
@@ -138,20 +143,32 @@ color: rgb(218, 207, 207);
 }
 .into{
     position: absolute;
-    left: 50%;
-    top: 4%;
+    left: 46%;
+    top: 3%;
     cursor: pointer;
+    width:22px;
+    height:22px;
+    border:2px solid black;
+    border-radius:50%;
+    padding:2px;
+}
+.into:hover{
+    box-shadow:1px 1px 10px red;
 }
 .yo{
     border-radius: 50%;
-    z-index: 1;
+   z-index: 1;
+}
+.yo:hover{
+    border:1px solid white;
+    box-shadow:1px 1px 20px white;
 }
 .img-bg div{
     margin-left: 400px;
 }
 .yo1,.yo4{
-    margin-top: 20px;
-    margin-left: -77px;
+    margin-top: 23px;
+    margin-left: -90px;
     width: 120px;
     height: 120px;
 }
@@ -169,6 +186,23 @@ color: rgb(218, 207, 207);
 }
 .yo4{
     margin-top: -8px;
+}
+.sliderItem h3{
+    z-index: 1;
+    position: absolute;
+    bottom: -3%;
+    left: 58%;
+    color: white;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    background:transparent:
+}
+.click{
+    font-size:21px;
+   
+}
+.click:hover{
+    box-shadow:1px 1px 20px black;
 }
 .sliderItem:nth-child(2) .img-bg{
     background-color: rgb(239, 153, 224);
@@ -196,4 +230,210 @@ color: rgb(218, 207, 207);
 }
 .hidden{
     display: none;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+.icon{
+    font-size: 2rem;
+}
+.heading{
+    margin-top: -20px;
+    color: rgb(9, 9, 9);
+}
+.description{
+    margin-top: -10px;
+    color: rgb(113, 111, 111);
+    width: 70%;
+    height: 100px;
+}
+.racket{
+    height: 50vh;
+    display: flex;
+    background-color: rgb(113, 111, 111);
+    margin: 20px 20px;
+    border-radius: 30px;
+    width: 100vw;
+    margin-right:60px;
+}
+.b-img{
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+    width: 30%;
+    height: 100%;
+}
+.about{
+   margin: 50px 50px;
+    color: white;
+}
+.buy{
+    position: relative;
+    left: 85%;
+    top: 10%;
+    padding: 10px 30px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: white;
+}
+.buy:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.products{
+    overflow: hidden;
+    background-image: url("./images/body\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.yellow{
+    box-shadow: 1px 1px 20px rgb(213, 236, 169);
+    border: 2px solid rgb(213, 236, 169);
+}
+.pink{
+    box-shadow: 1px 1px 20px rgb(239, 153, 224);
+    border: 2px solid rgb(239, 153, 224);
+}
+.violet{
+    box-shadow: 1px 1px 20px rgb(160, 153, 239);
+    border: 2px solid rgb(160, 153, 239);
+}
+.green{
+    box-shadow: 1px 1px 20px rgb(153, 239, 183);
+    border: 2px solid rgb(153, 239, 183);
+}
+.payment1{
+    position: absolute;
+    top: 2;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600px;
+    height: 540px;
+    border: 0px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 0px;
+    box-shadow: 1px 1px 10px black;
+    margin: 70px auto;
+}
+.personal-info{
+    display: flex;
+    flex-direction: column;
+}
+.personal-info label{
+    color: grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.personal-info h2,.card-info h2{
+    color: lightgray;
+}
+.personal-info input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.personal-info::placeholder{
+    font-weight: 100;
+    color: rgb(229, 226, 226);
+}
+.card-photo{
+    font-size: 2.5rem;
+    margin-left: 8px;
+    margin-top: -15px;
+}
+.card-details{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card-details input{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px 20px;
+}
+.width{
+    width: 150px;
+    flex-direction: row;
+}
+.top{
+    margin-top: 20px;
+}
+.check button{
+    margin-left: -20px;
+    width: 107%;
+    margin-top: 35px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: green;
+    box-shadow: 0px 0px 10px 0px black;
+    font-size: 18px;
+    cursor: pointer;
+}
+.body{
+    width: 800px;
+    height: 700px;
+    background-image: url("./images/payment-fotor-2023102315825.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.end{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.foot{
+    display: flex;
+    padding: 10px 80px;
+    padding-bottom: 30px;
+}
+.middle,.right{
+    margin-left: 250px;
+}
+.list ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: -35px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 17px;
+}
+.list ul li:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.follow{
+    margin-left: 200px;
+}
+.follow i{
+    font-size: 2rem;
+    padding-left: 10px;
+    color: #1599eb;
+    margin-top: 20px;
+    margin-left: -5px;
 }

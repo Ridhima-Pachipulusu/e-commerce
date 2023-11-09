@@ -1,8 +1,16 @@
 const wrappers=document.querySelector(".wrapper")
+const product=document.querySelector(".product-one");
+const product1 = document.querySelector(".product-two");
+const product2= document.querySelector(".product-three");
+const product3 = document.querySelector(".product-four");
 const item=document.querySelectorAll(".nav-item");
 item.forEach((item,index) => {
     item.addEventListener("click",()=>{
         wrappers.style.transform=`translatex(${-100 * index}vw)`;
+        product.style.transform = `translatex(${-100 * index}vw)`;
+        product1.style.transform = `translatex(${-100 * index}vw)`;
+        product2.style.transform = `translatex(${-100 * index}vw)`;
+        product3.style.transform = `translatex(${-100 * index}vw)`;
     });
 });
 const image=document.querySelector(".img1");
@@ -10,7 +18,6 @@ const back=document.querySelector(".bg1")
 image.addEventListener("click",(e)=>{
     e.preventDefault();
     back.classList.remove("hidden");
-    back.style.transform=`translate(1vw)`;
 })
 const image1 = document.querySelector(".img2");
 const back1 = document.querySelector(".bg2");
@@ -42,4 +49,17 @@ closes3.addEventListener("click", () => {
 const closes4 = document.querySelector(".into4");
 closes4.addEventListener("click", () => {
   back3.classList.add("hidden");
+});
+const clicking=document.querySelectorAll(".click");
+clicking.forEach((clicking,index)=>{
+  clicking.addEventListener("click",()=>{
+    if(index==0)
+    back.classList.remove("hidden");
+    else if(index==1)
+    back1.classList.remove("hidden");
+    else if(index==2)
+    back2.classList.remove("hidden");
+    else
+    back3.classList.remove("hidden");
+  })
 });

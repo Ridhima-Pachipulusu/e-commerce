@@ -1,122 +1,558 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <nav>
-    <div class="one">
-    <div class="logo">
-        <h2><span style="color: rgb(126, 188, 243);">.R</span><span style="color: violet;">O</span><span style="color: rgb(73, 73, 240);">C</span><span style="color: rgb(33, 241, 241);">K</span><span style="color: rgb(90, 230, 181);">E</span><span style="color: rgb(237, 88, 202);">T</span></h2>
-    </div>
-    <div class="search">
-        <input type="text" placeholder="Search" class="search-bar" class="search-input" style="background-color: rgb(153, 152, 152);border: none;margin-top: 5px;background-color: transparent;padding: 5px;">
-        <img src="./images/search.svg" alt="" class="search-img">
-    </div>
-    <div  class="limited">
-        <h3>Limited offer!</h3>
-    </div>
-    </div>
-    <div class="two">
-        <h4 class="nav-item">YONEX</h3>
-        <h4 class="nav-item">ASHAWAY</h3>
-        <h4 class="nav-item">VICTOR</h3>
-        <h4 class="nav-item">FALTON</h3>
-    </div>
-   </nav>
-   <div class="slider">
-    <div class="wrapper">
+  </head>
+  <body>
+    <nav>
+      <div class="one">
+        <div class="logo">
+          <h1>
+            <span style="color: rgb(126, 188, 243)">.R</span
+            ><span style="color: violet">O</span
+            ><span style="color: rgb(124, 124, 242)">C</span
+            ><span style="color: rgb(33, 241, 241)">K</span
+            ><span style="color: rgb(90, 230, 181)">E</span
+            ><span style="color: rgb(237, 88, 202)">T</span>
+          </h1>
+        </div>
+        <div class="two">
+          <h3 class="nav-item">YONEX</h3>
+          <h3 class="nav-item">ASHAWAY</h3>
+          <h3 class="nav-item">VICTOR</h3>
+          <h3 class="nav-item">FALTON</h3>
+        </div>
+        <div class="limited">
+          <h3>Limited offer!</h3>
+        </div>
+      </div>
+    </nav>
+    <div class="slider">
+      <div class="wrapper">
         <div class="sliderItem">
-            <img class="img1 img" src="./images/yonex-rocket.jpeg" alt="">
-            <div class="img-bg bg1 hidden">
-                <img class="into1 into" src="./images/close.svg" alt="">
-                <div>
-                <img class="yo1 yo " src="./images/yonex-rock.jpg" alt="">
-                </div>
-                <div>
-                <img class="yo2 yo" src="./images/yonex-cock.jpg" alt="">
-                </div>
-                <div>
-                <img class="yo3 yo" src="./images/yonex-shoes.jpg" alt="">
-                </div>
-                <div>
-                    <img class="yo4 yo" src="./images/yonex-grip.jpg" alt="">
-                </div>
+          <img class="img1 img" src="./images/yonex-rocket.jpeg" alt="" />
+          <h3 class="click">CLICK</h2>
+          <div class="img-bg bg1 hidden">
+            <img class="into1 into" src="./images/close.svg" alt="" />
+            <div>
+              <a href="#a">
+                <img class="yo1 yo" src="./images/yonex-rock.jpg" alt="" />
+              </a>
             </div>
-            <h1 class="caption"><span style="color: rgb(213, 236, 169);">YONEX</span> You're <br>Next <br>Destination</h1>
-            <h2 class="price">From $18</h2>
-            <button class="buy-button">Buy Now!</button>
+            <div>
+              <a href="#b">
+                <img class="yo2 yo" src="./images/yonex-cock.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#c">
+                <img class="yo3 yo" src="./images/yonex-shoes.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#d">
+                <img class="yo4 yo" src="./images/yonex-grip.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <h1 class="caption">
+            <span style="color: rgb(213, 236, 169)">YONEX</span> You're
+            <br />Next <br />Destination
+          </h1>
+          <h2 class="price">From $18</h2>
+          <a href="#products"> <button class="buy-button">Buy Now!</button></a>
         </div>
         <div class="sliderItem">
-            <img class="img2 img" src="./images/ashaway-rocket.jpeg" alt="">
-            <div class="img-bg bg2 hidden">
-                <img class="into2 into" src="./images/close.svg" alt="">
-                <div>
-                <img class="yo1 yo" src="./images/ashaway-rock.jpg" alt="">
-                </div>
-                <div>
-                <img class="yo2 yo" src="./images/ashaway-cock.jpg" alt="">
-                </div>
-                <div>
-                <img class="yo3 yo" src="./images/ashaway-shoes.jpg" alt="">
-                </div>
-                <div>
-                    <img class="yo4 yo" src="./images/ashaway-grips.jpg" alt="">
-                </div>
+          <img class="img2 img" src="./images/ashaway-rocket.jpg" alt="" />
+          <h3 class="click">CLICK</h3>
+          <div class="img-bg bg2 hidden">
+            <img class="into2 into" src="./images/close.svg" alt="" />
+            <div>
+              <a href="#a1">
+                <img class="yo1 yo" src="./images/ashaway-rock.jpg" alt="" />
+              </a>
             </div>
-            <h1 class="caption"><span style="color:rgb(239, 153, 224) ;">ASHAWAY</span><br> A Way <br>to Success</h1>
-            <h2 class="price">From $66</h2>
-            <button class="buy-button">Buy Now!</button>
+            <div>
+              <a href="#a2">
+                <img class="yo2 yo" src="./images/ashaway-cock.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#a3">
+                <img class="yo3 yo" src="./images/ashaway-shoes.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#a4">
+                <img class="yo4 yo" src="./images/ashaway-grips.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <h1 class="caption">
+            <span style="color: rgb(239, 153, 224)">ASHAWAY</span><br />
+            A Way <br />to Success
+          </h1>
+          <h2 class="price">From $66</h2>
+          <a href="#products"> <button class="buy-button">Buy Now!</button></a>
         </div>
         <div class="sliderItem">
-            <img class="img3 img" src="./images/victor-rocket.jpeg" alt="">
-            <div class="img-bg bg3 hidden">
-                <img class="into3 into" src="./images/close.svg" alt="">
-                <div>
-                <img class="yo1 yo" src="./images/victor-rock.jpg" alt="">
-                </div>
-                <div>
-                <img class="yo2 yo" src="./images/victor-cock.jpg" alt="">
-                </div>
-                <div>
-                <img class="yo3 yo" src="./images/victor-shoes.jpg" alt="">
-                </div>
-                <div>
-                    <img class="yo4 yo" src="./images/victor-grips.jpg" alt="">
-                </div>
+          <img class="img3 img" src="./images/victor-rocket.jpeg" alt="" />
+          <h3 class="click">CLICK</h3>
+          <div class="img-bg bg3 hidden">
+            <img class="into3 into" src="./images/close.svg" alt="" />
+            <div>
+              <a href="#v1">
+                <img class="yo1 yo" src="./images/victor-rock.jpg" alt="" />
+              </a>
             </div>
-            <h1 class="caption"><span style="color:rgb(160, 153, 239);">VICTOR</span><br>Helps In Your<br>Victory</h1>
-            <h2 class="price">From $80</h2>
-            <button class="buy-button">Buy Now!</button>
+            <div>
+              <a href="#v2">
+                <img class="yo2 yo" src="./images/victor-cock.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#v3">
+                <img class="yo3 yo" src="./images/victor-shoes.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#v4">
+                <img class="yo4 yo" src="./images/victor-grips.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <h1 class="caption">
+            <span style="color: rgb(160, 153, 239)">VICTOR</span><br />Helps In
+            Your<br />Victory
+          </h1>
+          <h2 class="price">From $80</h2>
+          <a href="#products"> <button class="buy-button">Buy Now!</button></a>
         </div>
         <div class="sliderItem">
-            <img class="img4 img" src="./images/falton-rocket.jpg" alt="">
-            <div class="img-bg bg4 hidden">
-                <img class="into4 into" src="./images/close.svg" alt="">
-                <div>
-                <img class="yo1 yo" src="./images/falton-rock.jpg" alt="">
-                </div>
-                <div>
-                <img class="yo2 yo" src="./images/falton-cocks.jpg" alt="">
-                </div>
-                <div>
-                <img class="yo3 yo" src="./images/falton-shoes.jpg" alt="">
-                </div>
-                <div>
-                    <img class="yo4 yo" src="./images/falton-grips.jpg" alt="">
-                </div>
+          <img class="img4 img" src="./images/falton-rocket.jpg" alt="" />
+          <h3 class="click">CLICK</h3>
+          <div class="img-bg bg4 hidden">
+            <img class="into4 into" src="./images/close.svg" alt="" />
+            <div>
+              <a href="#f1">
+                <img class="yo1 yo" src="./images/falton-rock.jpg" alt="" />
+              </a>
             </div>
-        <h1 class="caption"><span style="color: rgb(153, 239, 183);">FALTON</span><br>Makes You <br>Falcon</h1>
-            <h2 class="price">From $40</h2>
-            <button class="buy-button">Buy Now!</button>
+            <div>
+              <a href="#f2">
+                <img class="yo2 yo" src="./images/falton-cocks.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#f3">
+                <img class="yo3 yo" src="./images/falton-shoes.jpg" alt="" />
+              </a>
+            </div>
+            <div>
+              <a href="#f4">
+                <img class="yo4 yo" src="./images/falton-grips.jpg" alt="" />
+              </a>
+            </div>
+          </div>
+          <h1 class="caption">
+            <span style="color: rgb(153, 239, 183)">FALTON</span><br />Makes You
+            <br />Falcon
+          </h1>
+          <h2 class="price">From $40</h2>
+          <a href="#products"> <button class="buy-button">Buy Now!</button></a>
         </div>
+      </div>
     </div>
-   </div>
-   <script src="index.js"></script>
-</body>
+    <div class="features">
+      <div class="feature">
+        <p class="icon">
+          <i class="fa-solid fa-truck" style="color: #53df51"></i>
+        </p>
+        <h3 class="heading">Free Shipping</h3>
+        <p class="description">Product Will Be Shipped In 2-3 Working Days</p>
+      </div>
+      <div class="feature">
+        <p class="icon">
+          <i class="fa-solid fa-box-open" style="color: #64e362"></i>
+        </p>
+        <h3 class="heading">Easy Return</h3>
+        <p class="description">Can be Easily Returned</p>
+      </div>
+      <div class="feature">
+        <p class="icon">
+          <i class="fa-solid fa-gift" style="color: #53df51"></i>
+        </p>
+        <h3 class="heading">Gift Cards</h3>
+        <p class="description">Can Send Gift to Your Loved Ones</p>
+      </div>
+      <div class="feature">
+        <p class="icon">
+          <i class="fa-solid fa-address-book" style="color: #53df51"></i>
+        </p>
+        <h3 class="heading">Contact Us!</h3>
+        <p class="description">Keep In Touch Via email and support System</p>
+      </div>
+    </div>
+    <div class="products" id="products">
+      <div class="product-one wrapper">
+        <div class="racket yellow" id="a">
+          <img class="b-img" src="./images/yonex-shuttle.png" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Yonex Air</h1>
+              <h3>$123</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket pink" id="a1">
+          <img class="b-img" src="./images/ashawayshuttle.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Ashaway Bing</h1>
+              <h3>$204</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket violet" id="v1">
+          <img class="b-img" src="./images/victorshuttle.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Victor Wind</h1>
+              <h3>$156</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket green" id="f1">
+          <img class="b-img" src="./images/faltonshuttle.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Falton Flee</h1>
+              <h3>$168</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="product-two wrapper">
+        <div class="racket yellow" id="b">
+          <img class="b-img" src="./images/yonex-shuttlecock.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Yonex Cock</h1>
+              <h3>$12</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket pink" id="a2">
+          <img class="b-img" src="./images/ashawaycock.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Ashaway Cock</h1>
+              <h3>$10</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket violet" id="v2">
+          <img class="b-img" src="./images/victorcock.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Victor Cock</h1>
+              <h3>$14</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket green" id="f2">
+          <img class="b-img" src="./images/faltoncock.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Falton Cock</h1>
+              <h3>$18</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="product-three wrapper">
+        <div class="racket yellow" id="c">
+          <img class="b-img" src="./images/yonexshoes.png" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Yonex Spikes</h1>
+              <h3>$244</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket pink" id="a3">
+          <img class="b-img" src="./images/ashawayshoes.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Ashaway Spikers</h1>
+              <h3>$124</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket violet" id="v3">
+          <img class="b-img" src="./images/victorshoes.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Victor spikes</h1>
+              <h3>$210</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket green" id="f3">
+          <img class="b-img" src="./images/faltonshoes.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Falton Spikes</h1>
+              <h3>$180</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="product-four wrapper" id="d">
+        <div class="racket yellow">
+          <img class="b-img" src="./images/yonexgrips.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Yonex Grips</h1>
+              <h3>$20</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket pink" id="a4">
+          <img class="b-img" src="./images/ashawaygrips.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Ashaway Grips</h1>
+              <h3>$12</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket violet" id="v4">
+          <img class="b-img" src="./images/victorgrips.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Victor Grips</h1>
+              <h3>$18</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+        <div class="racket green" id="f4">
+          <img class="b-img" src="./images/faltongrips.jpeg" alt="" />
+          <div class="about">
+            <div class="head">
+              <h1>Falton Grips</h1>
+              <h3>$11</h3>
+            </div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              expedita et consequatur laboriosam dolore ab iusto quo optio amet
+              quaerat pariatur ex eum neque praesentium error, aliquid nulla
+              suscipit assumenda rem impedit a molestiae aut! Placeat, explicabo
+              illum accusamus exercitationem maxime at id ducimus blanditiis
+              accusantium, consequatur illo voluptatibus repellendus!
+            </div>
+            <a href="checkout.html"> <button class="buy">Buy Now</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="foot">
+        <div class="left">
+          <h1>About Us</h1>
+          <div class="list1 list">
+            <ul class="aboutus">
+              <li>Company</li>
+              <li>Contact</li>
+              <li>Careers</li>
+              <li>Affiliates</li>
+              <li>Stores</li>
+            </ul>
+          </div>
+        </div>
+        <div class="middle">
+          <h1>Useful Links</h1>
+          <div class="list2 list">
+            <ul class="links">
+              <li>Support</li>
+              <li>Resend</li>
+              <li>FAQ</li>
+              <li>Feedback</li>
+              <li>Stories</li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <h1>Products</h1>
+          <div class="list3 list">
+            <ul class="product">
+              <li>Yonex</li>
+              <li>Ashaway</li>
+              <li>Victor</li>
+              <li>Falton</li>
+            </ul>
+          </div>
+        </div>
+        <div class="follow">
+          <h1>Follow Us</h1>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
 </html>
