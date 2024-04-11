@@ -64,7 +64,7 @@ nav{
     border-radius: 700px;
 }
 .slider{
-   background-image: url("./images/background\ \(1\).jpg");
+   background-image: url("./images/background\(1\).jpg");
    height: 600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,6 +99,7 @@ nav{
     z-index: 1;
     color: rgb(251, 250, 250);
     font-size: 40px;
+    color: rgb(64, 62, 62);
 }
 .img-bg{
     width: 570px;
@@ -137,9 +138,10 @@ nav{
     font-weight: 500;
     right: 72%;
     top: 48%;
-    color:rgb(238, 240, 241);
+    color:rgb(87, 88, 88);
     border: 2px solid lightslategray;
     padding: 8px;
+    
 }
 .into{
     position: absolute;
@@ -195,7 +197,7 @@ nav{
     color: white;
     border-bottom: 1px solid lightgray;
     cursor: pointer;
-    background:transparent:
+    background:transparent;
 }
 .click{
     font-size:21px;
